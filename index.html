@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Fish Ran</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav>
+          <ul class="sidebar">
+            <li id="closeSidebar">
+              <a><img src="assets/close.svg" alt="סגור" /></a>
+            </li>
+            <li><a href="#about">אודות</a></li>
+            <li><a href="#home">בית</a></li>
+          </ul>
+          <ul>
+            <li><a href="#home">Hot Fish Ran</a></li>
+            <li class="hideOnMobile"><a href="#about">אודות</a></li>
+            <li><a href="#recommendations">המלצות</a></li>
+            <li><a href="#images">תמונות</a></li>
+            <li><a href="#home">בית</a></li>
+            <li id="openSidebar">
+              <a><img src="assets/menu.svg" alt="תפריט" /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="section" id="home">
+          <h1 class="section-header">!הדגים הטובים בעיר</h1>
+          <p class="section-subtitle">
+            נעשה בעבודת יד אישית באהבה רבה מוכנים להגיע אליכם לשולחן עם מנת דג
+            חריפה ולהפתיע אתכם בטעמים חדשים
+          </p>
+        </section>
+        <section class="section images-section" id="images">
+          <div class="images">
+            <img src="assets/img1.jpg" alt="דגים" class="image" />
+            <img src="assets/img2.jpg" alt="דגים" class="image" />
+            <img src="assets/img3.jpg" alt="דגים" class="image" />
+          </div>
+        </section>
+        <section class="section" id="recommendations">
+          <h1 class="section-header">לקוחות ממליצים</h1>
+          <div class="recommendation-section">
+            <div class="recommendation">recommendation 1</div>
+            <div class="recommendation">recommendation 2</div>
+            <div class="recommendation">recommendation 3</div>
+          </div>
+        </section>
+        <section class="section" id="about">
+          <div>
+            <h1 class="section-header">קצת עליי</h1>
+            <p>שמי רן....</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
