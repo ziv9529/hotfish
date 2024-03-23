@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -20,16 +25,18 @@
             <li id="closeSidebar">
               <a><img src="assets/close.svg" alt="סגור" /></a>
             </li>
-            <li><a href="#about">אודות</a></li>
             <li><a href="#home">בית</a></li>
+            <li><a href="#recommendations">המלצות</a></li>
+            <li><a href="#contact">צור קשר</a></li>
+            <li><a href="#about">אודות</a></li>
           </ul>
           <ul>
             <li><a href="#home">Hot Fish Ran</a></li>
             <li class="hideOnMobile"><a href="#about">אודות</a></li>
-            <li><a href="#recommendations">המלצות</a></li>
-            <li><a href="#images">תמונות</a></li>
-            <li><a href="#home">בית</a></li>
-            <li id="openSidebar">
+            <li class="hideOnMobile"><a href="#contact">צור קשר</a></li>
+            <li class="hideOnMobile"><a href="#recommendations">המלצות</a></li>
+            <li class="hideOnMobile"><a href="#home">בית</a></li>
+            <li class="hideOnMobile" id="openSidebar">
               <a><img src="assets/menu.svg" alt="תפריט" /></a>
             </li>
           </ul>
@@ -37,7 +44,9 @@
       </header>
       <main>
         <section class="section" id="home">
-          <h1 class="section-header">!הדגים הטובים בעיר</h1>
+          <h1 class="section-header">
+            !הדגים <span id="header-gradient">הטובים</span> בעיר
+          </h1>
           <p class="section-subtitle">
             נעשה בעבודת יד אישית באהבה רבה מוכנים להגיע אליכם לשולחן עם מנת דג
             חריפה ולהפתיע אתכם בטעמים חדשים
@@ -50,18 +59,248 @@
             <img src="assets/img3.jpg" alt="דגים" class="image" />
           </div>
         </section>
-        <section class="section" id="recommendations">
-          <h1 class="section-header">לקוחות ממליצים</h1>
-          <div class="recommendation-section">
-            <div class="recommendation">recommendation 1</div>
-            <div class="recommendation">recommendation 2</div>
-            <div class="recommendation">recommendation 3</div>
+        <section class="section slider-section" id="recommendations">
+          <div class="slider-container">
+            <div class="wrapper">
+              <h1 class="section-header">לקוחות ממליצים!</h1>
+              <i id="left" class="fa-solid fa-angle-left"></i>
+              <ul class="carousel">
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6235.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6236.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6237.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6238.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6239.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6240.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6241.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6242.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6243.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6244.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6245.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6246.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6247.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6248.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6249.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6250.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6251.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6252.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6253.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6254.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6255.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6256.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6257.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+                <li class="card">
+                  <div class="img">
+                    <img
+                      src="assets/IMG_6258.jpg"
+                      alt="ביקורת"
+                      draggable="false"
+                    />
+                  </div>
+                </li>
+              </ul>
+              <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </section>
+        <section class="section contact-section" id="contact">
+          <div>
+            <h1 class="section-header">צור קשר</h1>
+            <p class="section-subtitle">טלפון...</p>
+            <p class="section-subtitle">אינסטגרם...</p>
+            <p class="section-subtitle">ווצאפ...</p>
           </div>
         </section>
         <section class="section" id="about">
           <div>
             <h1 class="section-header">קצת עליי</h1>
-            <p>שמי רן....</p>
+            <p class="section-subtitle">שמי רן....</p>
+            <p class="section-subtitle">שמי רן....</p>
+            <p class="section-subtitle">שמי רן....</p>
+            <p class="section-subtitle">שמי רן....</p>
           </div>
         </section>
       </main>
