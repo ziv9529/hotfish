@@ -235,6 +235,14 @@ nav li:first-child {
   }
 }
 @media screen and (max-width: 600px) {
+  .slider-container {
+    min-height: 60vh;
+  }
+
+  .section-subtitle {
+    max-width: 80%;
+  }
+
   .wrapper .carousel {
     grid-auto-columns: 100%;
   }
